@@ -42,8 +42,8 @@ Las imágenes de la home se encuentran en `/lib/frontend/site/home-multiforum/as
 - Background del home: `background-home.jpeg`
 - Iconos del listado de pasos del home: 
   - `icono-home-informate.svg`
-  - `icono-home-participa.svg`
-  - `icono-home-comparti.svg`
+  - `icono-home-debate.svg`
+  - `icono-home-prioriza.svg`
 
 ## Textos para cambiar
 

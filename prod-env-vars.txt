@@ -27,8 +27,8 @@
 - LOGO_CENTRAL_HOME=/lib/frontend/site/home-multiforum/logo-central-home.png
 - BACKGROUND_HOME=/lib/frontend/site/home-multiforum/background-home.jpg
 - ICONO_HOME_INFORMATE=/lib/frontend/site/home-multiforum/icono-home-informate.png
-- ICONO_HOME_PARTICIPA=/lib/frontend/site/home-multiforum/icono-home-participa.png
-- ICONO_HOME_COMPARTI=
+- ICONO_HOME_DEBATE=/lib/frontend/site/home-multiforum/icono-home-debate.png
+- ICONO_HOME_PRIORIZA=
 - SOCIALSHARE_SITE_NAME=JUNTAS. Mujeres de América Latina
 - SOCIALSHARE_SITE_DESCRIPTION=#TOMAPARTIDO, transformar la política, transformar la democracia
 - SOCIALSHARE_IMAGE=https://ppescuelas.unr.edu.ar/ext/lib/boot/logo.png

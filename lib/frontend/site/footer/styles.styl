@@ -1,11 +1,11 @@
 .ext-footer
-  padding 60px 0
   margin-top 30px
   font-size 1em
-  background-color #fff
   border-top: 1px solid rgba(0, 0, 0, 0.1)
+  background: white
 
-  .footer
+  .footer-1
+    padding 60px 0
     max-width 1180px
     margin 0 auto
     display flex
@@ -13,6 +13,27 @@
     flex-wrap wrap
     align-items flex-start
     justify-content space-between
+  
+  .footer-2
+    margin 0 auto
+    display flex
+    flex-direction row
+    flex-wrap wrap
+    align-items flex-start
+    justify-content space-between
+    height: 48px;
+    background: #AADCED;
+
+  .desarrollo
+    display: flex
+    margin-top: 7px
+    flex-direction row
+    flex-wrap wrap
+    align-items flex-start
+    justify-content space-between
+
+  .derechos
+    margin-top: 8px
 
   .institutional
     flex-grow 2
@@ -39,7 +60,6 @@
 
     img
       max-width 100%
-      width 300px
 
   .menu
     padding 0 15px
@@ -53,7 +73,7 @@
       padding 6px 0
 
   @media only screen and (max-width: 687px)
-    .footer
+    .footer-1
       flex-direction column
       flex-wrap wrap
       padding 0 10px

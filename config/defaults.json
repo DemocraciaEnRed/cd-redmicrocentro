@@ -115,8 +115,8 @@
     "logoCentralHome": "/lib/frontend/site/home-multiforum/logo-central-home",
     "backgroundHome": "/lib/frontend/site/home-multiforum/background-home",
     "iconoHomeInformate": "/lib/frontend/site/home-multiforum/icono-home-informate",
-    "iconoHomeParticipa": "/lib/frontend/site/home-multiforum/icono-home-participa",
-    "iconoHomeComparti": "/lib/frontend/site/home-multiforum/icono-home-comparti",
+    "iconoHomeDebate": "/lib/frontend/site/home-multiforum/icono-home-debate",
+    "iconoHomePrioriza": "/lib/frontend/site/home-multiforum/icono-home-prioriza",
     "favicon": "/lib/boot/favicon"
   },
   "organizationName": "Consultas Digitales",

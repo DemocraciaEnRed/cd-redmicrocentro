@@ -24,8 +24,8 @@ services:
       - LOGO_CENTRAL_HOME=/lib/frontend/site/home-multiforum/logo-central-home.png
       - BACKGROUND_HOME=/lib/frontend/site/home-multiforum/background-home.jpeg
       - ICONO_HOME_INFORMATE=/lib/frontend/site/home-multiforum/icono-home-informate.svg
-      - ICONO_HOME_PARTICIPA=/lib/frontend/site/home-multiforum/icono-home-participa.svg
-      - ICONO_HOME_COMPARTI=/lib/frontend/site/home-multiforum/icono-home-comparti.svg
+      - ICONO_HOME_DEBATE=/lib/frontend/site/home-multiforum/icono-home-debate.svg
+      - ICONO_HOME_PRIORIZA=/lib/frontend/site/home-multiforum/icono-home-prioriza.svg
       # Organización
       - ORGANIZATION_EMAIL=miconsultadigital@midominio.com.ar
       - ORGANIZATION_NAME=Mi Consulta Digital

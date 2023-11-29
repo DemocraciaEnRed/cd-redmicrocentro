@@ -9,7 +9,7 @@
       font-size:18px
       margin-top: 5px
       &.highlight
-        font-size:22px
+        font-size:18px
         font-weight: 400
         text-shadow: none !important
       span
@@ -18,6 +18,12 @@
       margin-top: 1rem
       margin: 10px;
       background-color: $main-color;
+    img
+      height: 190px
+      @media (max-width: 992px)
+        height: 100px
+      
+
 .ext-site-home-multiforum
   background: transparent
 
@@ -43,6 +49,13 @@
 
   .cover
     text-align: center
+    min-height: 60vh!important
+    display: flex!important
+    flex-direction: row!important
+    flex-wrap: wrap!important
+    align-items: center!important
+    justify-content: center!important
+    vertical-align: middle!important
 
     h1
       max-width: 500px
@@ -79,8 +92,18 @@
     }
 
     .skyblue {
-      font-weight: 500;
+      color: $primary-color
+      text-transform: uppercase;
     }
+
+    .explain 
+      color: $main-color;
+      text-align: center;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px; /* 130% */    
+
   .arrow
     text-align:center
 

@@ -11,8 +11,8 @@
   "logoCentralHome": "/lib/frontend/site/home-multiforum/logo-central-home.png",
   "backgroundHome": "/lib/frontend/site/home-multiforum/background-home.jpeg",
   "iconoHomeInformate": "/lib/frontend/site/home-multiforum/icono-home-informate.svg",
-  "iconoHomeParticipa": "/lib/frontend/site/home-multiforum/icono-home-participa.svg",
-  "iconoHomeComparti": "/lib/frontend/site/home-multiforum/icono-home-comparti.svg"
+  "iconoHomeDebate": "/lib/frontend/site/home-multiforum/icono-home-debate.svg",
+  "iconoHomePrioriza": "/lib/frontend/site/home-multiforum/icono-home-prioriza.svg"
   "notifications": {
       "url": "",
       "token": "",
