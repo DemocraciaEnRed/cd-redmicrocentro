@@ -112,10 +112,6 @@
   .section-icons
     font-weight:600
     margin-top:20px
-    @media (max-width: 760px)
-      margin-left:6%
-    @media (max-width: 460px)
-      margin-left:10px
     .section-icon
       display: flex;
       padding: 20px 20px;
@@ -153,19 +149,17 @@
       min-width:130px
       border-radius: 5000px;
       font-size:13px !important
-      padding: 10px 40px 10px 40px !important
+      padding: 10px!important
 
     .btn-secondary
       min-width:200px
       border: 1px solid #000;
-      margin: 0 10px 0 10px
       background: transparent
 
     .btn-active
       min-width:200px
       text-underline: none
       background-color: $secondary-color
-      margin: 0 10px 0 10px
       color: $main-color
       &:focus
         outline: none
@@ -173,27 +167,6 @@
 .dropbtn
   width:150px
   font-size:16px !important
-  @media (min-width: 701px)
-    display:none
-
-.dropdown-element:hover .dropdown-content
-  @media (max-width: 700px)
-    display: block
-
-.dropdown-content
-  @media (max-width: 700px)
-    li
-      display:block
-      margin-bottom:0
-
-.dropdown-content
-  @media (max-width: 700px)
-    display: none
-    position: absolute
-    z-index: 1
-    left: -14px
-    top: 36px
-
 .dropdown-element
   @media (max-width: 700px)
     position: relative
@@ -218,3 +191,4 @@
   background-repeat: no-repeat
   // background-repeat: no-repeat
   background-size: cover  
+  
