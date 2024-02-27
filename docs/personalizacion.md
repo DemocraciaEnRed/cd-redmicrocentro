@@ -1,6 +1,6 @@
 # Extendiendo la plataforma
 
-En un principio Consultas Digirales era una "extensión" de DemocracyOS (DOS a partir de ahora). Por eso, mucho de su código quedó en la carpeta `ext`. Posteriormente se decidió volver al código fuente de DOS dado que este mecanismo del `ext` molestaba más de lo que ayudaba en el desarrollo. Si bien el repositorio se encuentra en estado de migración, para abandonar el `ext`, todavía hay muchas cosas que quedaron en `ext`.
+En un principio Consultas Digirales era una "extensión" de DemocraciaOS (DOS a partir de ahora). Por eso, mucho de su código quedó en la carpeta `ext`. Posteriormente se decidió volver al código fuente de DOS dado que este mecanismo del `ext` molestaba más de lo que ayudaba en el desarrollo. Si bien el repositorio se encuentra en estado de migración, para abandonar el `ext`, todavía hay muchas cosas que quedaron en `ext`.
 
 Esta dinámica suponía que no se toque en absoluto el código fuente de DOS y se haga todo mediante "extensión". Un uso aplicado se puede ver, p. ej., en [ext/lib/site/boot/overrides.js](../ext/lib/site/boot/overrides.js) donde se hace una pisada de muchos componentes originales de DOS. Así que **tenga cuidado** cuando modifique componentes de React; si los cambios no se reflejan, **lo más probable es que algún archivo de `ext` lo esté pisando** (todavía hay muchos overrides: [boot](../ext/lib/boot/overrides.js), [admin](../ext/lib/admin/boot/overrides.js), [site](../ext/lib/site/boot/overrides.js) y [settings](../ext/lib/settings/boot/overrides.js)).
 
@@ -8,7 +8,7 @@ Como dijimos, esta práctica fue abandonada y ahora se recomienda editar el cód
 
 ## Estructura de carpetas
 
-Siguiendo la estructura de DemocracyOS, se tiene:
+Siguiendo la estructura de DemocraciaOS, se tiene:
 
 * Todo lo que sea el panel de configuración/perfil, bajo `frontend/settings`
 * Todo lo que sea el panel de admin de una comunidad/forum específica, bajo `frontend/admin`
@@ -49,9 +49,9 @@ Las imágenes de la home se encuentran en `/lib/frontend/site/home-multiforum/as
 
 Se pueden cambiar cualquier texto dentro de `/ext/lib/site`. Algunas vistas pueden llegar a utilizar algun componente de **i18n** donde la funcion `t("mi.label")` toma del archivo de traduccion `es.json` ubicado en `/ext/translations/lib/es.json`
 
-Si hay etiquetas de i18n que no se encuentran en el `es.json` lo mas probable es que vengan del core de DemocracyOS.
+Si hay etiquetas de i18n que no se encuentran en el `es.json` lo mas probable es que vengan del core de DemocraciaOS.
 
-Si se quiere ver esos archivos, lo mas conveniente es entrar al bash del container o ver el repositorio de DemocracyOS en GitHub.
+Si se quiere ver esos archivos, lo mas conveniente es entrar al bash del container o ver el repositorio de DemocraciaOS en GitHub.
 
 Para entrar al bash del container, ejecutar:
 
@@ -59,7 +59,7 @@ Para entrar al bash del container, ejecutar:
 docker exec -it <containername> bash
 ```
 
-El bash abre en `/usr/src` y ahi se encontraria el codigo de todo DemocracyOS y la carpeta ext que es de este repositorio.
+El bash abre en `/usr/src` y ahi se encontraria el codigo de todo DemocraciaOS y la carpeta ext que es de este repositorio.
 
 ## Assets
 

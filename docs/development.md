@@ -15,12 +15,12 @@ En el repositorio encontrará la plantilla [`docker-compose.example.yml`](../doc
 ##### Notas
 * Es muy importante que en `STAFF` agregues el email del admin o el de los administradores. Puede hacerlo incluso antes de haber creado las respectivas cuentas en la plataforma.
 * Podés comentar las variables `NOTIFICATION_*` si todavía no tenés un servidor de correo definido.
-* Podés configurar DemocracyOS con cualquiera de las variables de entorno listadas acá: http://docs.democracyos.org/configuration.html
+* Podés configurar DemocraciaOS con cualquiera de las variables de entorno listadas acá: http://docs.democracyos.org/configuration.html
 * Por defecto la aplicación se monta en el puerto 3000. Puede cambiar este puerto editando el número de la derecha bajo la llave `ports` (p. ej.: `3000:9999`)
 * Si se prefiere conectar a una base de datos local, fuera del entorno, vea el apartado [Conectar a una base de datos mongo local](#conectar-a-una-base-de-dato-mongo-local)
 * El puerto `27017` está expuesto para que puedas administrar la base de datos con algún cliente de MongoDB, por ejemplo con [Robomongo](https://robomongo.org/).
-* Hay muchas vistas personalizadas de Consultas Digitales que se encuentran en [`/ext`](ext). Siguiendo el mismo patrón de carpetas que [DemocracyOS/democracyos](https://github.com/DemocracyOS/democracyos).
-* Las variables de entorno se traducen a variables en código siguiendo la serialización descripta en [DemocracyOS/config](https://github.com/DemocracyOS/config#environment-variables).
+* Hay muchas vistas personalizadas de Consultas Digitales que se encuentran en [`/ext`](ext). Siguiendo el mismo patrón de carpetas que [DemocraciaOS/democracyos](https://github.com/DemocraciaOS/democracyos).
+* Las variables de entorno se traducen a variables en código siguiendo la serialización descripta en [DemocraciaOS/config](https://github.com/DemocraciaOS/config#environment-variables).
 
 
 Luego de que todo este definido, podemos arrancar el servidor ejecutando:
@@ -55,7 +55,7 @@ Si desea utilizar otro archivo de compose:
 docker-compose -f docker-compose-otro.yml up
 ```
 
-Para poder entrar al container de DemocracyOS:
+Para poder entrar al container de DemocraciaOS:
 
 ```
 docker exec -it miconsultapublica bash
@@ -152,7 +152,7 @@ Posteriormente, cambiar las variables de entorno correspondientes del contenedor
  Notar que si bien la conexión a este servidor SMTP no está cifrada, la conexión del servidor SMTP a Gmail sí lo está.
 
 ## Instalación directa
-Para esto debe seguir las guías oficiales de DemocracyOS sobre [instalación](https://docs.democracyos.org/install.html) y [desarrollo](https://docs.democracyos.org/develop/).
+Para esto debe seguir las guías oficiales de DemocraciaOS sobre [instalación](https://docs.democracyos.org/install.html) y [desarrollo](https://docs.democracyos.org/develop/).
 
 De forma breve se puede resumir en:
 
@@ -176,7 +176,7 @@ Una vez cambiada la version de Node como explicado en el punto anterior puede ej
 Una vez cambiada la version de Node como explicado en el punto anterior, al anterior, puede ejecutar `npm install -g gulp` para instalar Gulp. Esto solo afectará a la versión de Node que esté activa.
 
 ### Configuración
-La configuración de la instancia local se hace en el archivo `config/development.json`. Los valores por defecto se pueden ver en `config/defaults.json`. Hay un ejemplo de configuración en `config/development.json.example`. Estas opciones son las mismas que para `docker-compose.yml` salvo que hay un proceso de renombramiento, como se explica en [DemocracyOS/config](https://github.com/DemocracyOS/config#environment-variables), que básicamente es renombrar `UNA_VARIABLE_X` a `unaVariableX` accesible desde el código.
+La configuración de la instancia local se hace en el archivo `config/development.json`. Los valores por defecto se pueden ver en `config/defaults.json`. Hay un ejemplo de configuración en `config/development.json.example`. Estas opciones son las mismas que para `docker-compose.yml` salvo que hay un proceso de renombramiento, como se explica en [DemocraciaOS/config](https://github.com/DemocraciaOS/config#environment-variables), que básicamente es renombrar `UNA_VARIABLE_X` a `unaVariableX` accesible desde el código.
 
 El frontend no tiene acceso a todas las variables de configuración, sino solo a las que están enumeradas dentro de la opción `"client"` dentro del archivo de configuración.
 

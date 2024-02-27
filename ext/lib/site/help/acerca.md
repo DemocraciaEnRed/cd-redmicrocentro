@@ -1,8 +1,17 @@
 # Acerca de este sitio
 
-Consultas Digitales es una plataforma de código abierto, de fácil instalación y personalizable que busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas. Su versatilidad permite el uso por parte tanto de organismos estatales como entes de la sociedad civil.
+Te damos la bienvenida a la plataforma Red Microcentro. Un espacio digital para reunir a la comunidad local que desea darle vida a la Red Microcentro y participar de la convocatoria Activación Urbana. El objetivo es contribuir a la revitalización del Microcentro de Buenos Aires mediante la activación del espacio público y la participación ciudadana. Esta plataforma fue creada para fomentar la comunicación abierta, la toma de decisiones colaborativa y el intercambio de ideas y diálogo entre los actores locales.
 
-Esta herramienta fue pensada por Democracia en Red, una organización argentina fundada en 2014 con el objetivo de crear soluciones de participación ciudadana con gobiernos y activistas para fortalecer la democracia. Consultas digitales busca ser parte de un proceso de apertura en las instituciones públicas y los procesos de toma de decisión para recuperar la política a partir de diagnósticos que apuntan a la acción. En este sentido, la herramienta permite la participación de la ciudadanía para debatir, informarse y votar sobre diferentes temáticas.
+_Es una iniciativa promovida por el Gobierno de la Ciudad de Buenos Aires con el apoyo del BID (Banco Interamericano de Desarrollo)._
+
+## ¿Cómo funciona?
+
+La plataforma permite a quienes participan:
+- Comunicarse y conectarse con otros miembros de la comunidad.
+- Votar y expresar opiniones sobre las propuestas para la Activación Urbana y la Red Microcentro.
+- Tomar decisiones colectivas que darán forma al desarrollo del evento y la red.
+- Compartir información y recursos para fortalecer la colaboración.
+
 
 ## Contacto
 
@@ -12,10 +21,10 @@ Esta herramienta fue pensada por Democracia en Red, una organización argentina 
 
 **Teléfono:** 
 
-**Correo electrónico:** [it@democracyos.org](mailto:it@democracyos.org)
+**Correo electrónico:** [contacto@democraciaenred.org](mailto:contacto@democraciaenred.org)
 ​
 ## Tecnología
 
-La Plataforma de Consultas Digitales es un desarrollo basado en la tecnología de DemocracyOS.
+La Plataforma de Consultas Digitales es un desarrollo basado en la tecnología de DemocraciaOS.
 
-**DemocracyOS** es una plataforma online de [código abierto](https://github.com/DemocracyOS) especialmente diseñada para informar, debatir y votar propuestas públicas hacia la construcción de una democracia adaptada al siglo XXI.
+**DemocraciaOS** es una plataforma online de [código abierto](https://github.com/DemocraciaOS) especialmente diseñada para informar, debatir y votar propuestas públicas hacia la construcción de una democracia adaptada al siglo XXI.

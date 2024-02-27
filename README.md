@@ -11,7 +11,7 @@
 [![Website consultasdigitales.democraciaenred.org](https://img.shields.io/website-up-down-green-red/http/consultasdigitales.democraciaenred.org.svg)](https://consultasdigitales.democraciaenred.org/)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DemocraciaEnRed_consultas-digitales&metric=alert_status)](https://sonarcloud.io/dashboard?id=DemocraciaEnRed_consultas-digitales)
 
-> La Plataforma de **Consulta Digitales** es un desarrollo basado en [DemocracyOS](https://github.com/DemocracyOS/democracyos): una plataforma de código abierto especialmente diseñada para informar, debatir y votar propuestas públicas de forma online hacia la construcción de una democracia adaptada al siglo XXI.
+> La Plataforma de **Consulta Digitales** es un desarrollo basado en [DemocraciaOS](https://github.com/DemocraciaOS/democracyos): una plataforma de código abierto especialmente diseñada para informar, debatir y votar propuestas públicas de forma online hacia la construcción de una democracia adaptada al siglo XXI.
 
 ![funcionamiento de la plataforma](https://i.ibb.co/hFxm8cX/Peek-2020-01-20-17-10.gif)
 
@@ -39,13 +39,13 @@ Preferimos el uso del __español__ en todos los mensajes de _commits_, _branches
 
 Al realizar cualquiera de estas acciones a nosotrxs nos llegará un mail y pronto le estaremos dando una respuesta del pedido.
 
-Para poder contribuir en el codigo base de DemocracyOS, ir al repositorio [DemocracyOS/democracyos](https://github.com/DemocracyOS/democracyos).
+Para poder contribuir en el codigo base de DemocraciaOS, ir al repositorio [DemocraciaOS/democracyos](https://github.com/DemocraciaOS/democracyos).
 
 ## Código de conducta
 Nuestro código de conducta, destinado a cualquier persona que desee acercarse y aportar al repositorio, está disponible tanto en [español](CODIGO_DE_CONDUCTA.md) como en [inglés](CODE_OF_CONDUCT.md).
 
 ## Autorxs
-Antes que nada, están lxs autorxs de DemocracyOS, enumeradxs en su [CONTRIBUTORS.md](https://github.com/DemocracyOS/app/blob/master/CONTRIBUTORS.md).
+Antes que nada, están lxs autorxs de DemocraciaOS, enumeradxs en su [CONTRIBUTORS.md](https://github.com/DemocraciaOS/app/blob/master/CONTRIBUTORS.md).
 
 Además, para esta versión modificada de la plataforma aportaron principalmente: [@guillecro](https://github.com/guillecro) y [@franz-ka](https://github.com/franz-ka).
 
