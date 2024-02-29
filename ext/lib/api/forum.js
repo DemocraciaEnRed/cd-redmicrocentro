@@ -56,7 +56,7 @@ function createForum(req, res, next) {
     permissions: req.body.permissions,
     extra: {
       richSummary: req.body.richSummary,
-      closingAt: req.body.closingAt,
+      closingAt: new Date(req.body.closingAt),
       contentType: req.body.contentType,
       palabrasCierre: req.body.palabrasCierre,
       linkCierre: req.body.linkCierre,
