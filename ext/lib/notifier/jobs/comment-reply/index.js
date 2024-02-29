@@ -9,7 +9,7 @@ const log = require('debug')('democracyos:notifier:comment-reply')
 const jobName = 'comment-reply'
 const jobNameForSingleUser = 'comment-reply-single-recipient'
 
-// original en: https://github.com/DemocracyOS/notifier/blob/master/lib/jobs/lib/comment-reply.js
+// original en: https://github.com/DemocraciaOS/notifier/blob/master/lib/jobs/lib/comment-reply.js
 module.exports = function topicPublished (notifier) {
   const { db, agenda, mailer } = notifier
   const users = db.get('users')

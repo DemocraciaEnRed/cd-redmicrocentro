@@ -1,5 +1,5 @@
 #
-# DemocracyOS Makefile
+# DemocraciaOS Makefile
 #
 
 ifndef DEBUG

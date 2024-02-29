@@ -10,7 +10,7 @@ const buttonTemplate = require('ext/lib/notifier/responsize-email-button-templat
 
 const baseUrl = utils.buildUrl(config)
 
-// original en: https://github.com/DemocracyOS/notifier/blob/master/lib/templates/lib/comment-reply.js
+// original en: https://github.com/DemocraciaOS/notifier/blob/master/lib/templates/lib/comment-reply.js
 module.exports = ({
   userName, topicTitle, reply, comment, url
 }, {

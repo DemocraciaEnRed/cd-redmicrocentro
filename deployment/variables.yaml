@@ -33,7 +33,7 @@ docker:
   # Imagen de docker a utilizar, obligatorio.
   IMAGE:
   
-  # Variables de DemocracyOS, ver sección development.
+  # Variables de DemocraciaOS, ver sección development.
   DEBUG:
   STAFF:
   ORGANIZATION_EMAIL:

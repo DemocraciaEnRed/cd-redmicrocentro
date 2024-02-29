@@ -2,7 +2,7 @@
 
 /**
  * Command line script to initialize /ext folder.
- * Intended to be used on forks, for an easier extension of DemocracyOS
+ * Intended to be used on forks, for an easier extension of DemocraciaOS
  */
 
 const path = require('path')

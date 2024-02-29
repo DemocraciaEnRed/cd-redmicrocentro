@@ -2,7 +2,7 @@
 
 /**
  * Command line script to install dependencies of /ext
- * To be able to install dependencies on a fork without polluting DemocracyOS
+ * To be able to install dependencies on a fork without polluting DemocraciaOS
  */
 
 const fs = require('fs')

@@ -28,7 +28,7 @@ function guessVersion (topic) {
     // Topic %s is v1 (very old stuff with clauses)
     return 1
   } else if (topic.clauses[0] && topic.clauses[0]._doc && topic._doc.clauses[0]._doc.markup) {
-    // Topic %s is v3 (wrote with a rich text editor in DemocracyOS 1.0) or already migrated
+    // Topic %s is v3 (wrote with a rich text editor in DemocraciaOS 1.0) or already migrated
     return 3
   } else if (topic._doc && topic._doc.summary) {
     // Topic %s is v2 (wrote with a rich text editor)

@@ -1,5 +1,5 @@
 {
-  "name": "DemocracyOS",
+  "name": "DemocraciaOS",
   "description": "An online space for voting on political proposals. The software aims to stimulate better arguments and come to better rulings",
   "keywords": [
     "democracy",
@@ -15,7 +15,7 @@
   ],
   "author": "Democracia en Red <speak@democracyos.org>",
   "website": "https://democracyos.org/",
-  "repository": "https://github.com/DemocracyOS/app",
+  "repository": "https://github.com/DemocraciaOS/app",
   "logo": "https://cldup.com/guAAqPM85t.png",
   "addons": [
     "mongolab:sandbox",

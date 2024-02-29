@@ -22,7 +22,7 @@ if (module === require.main) {
       server(opts, function (err) {
         if (err) throw err
 
-        log('DemocracyOS server running...')
+        log('DemocraciaOS server running...')
       })
     })
     .catch((err) => {
