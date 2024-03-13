@@ -1,3 +1,6 @@
+#vscode
+.vscode/
+
 *.csv
 *.dat
 *.DS_Store
