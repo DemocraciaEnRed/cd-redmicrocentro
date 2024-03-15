@@ -1,18 +1,92 @@
-h1{
-    text-align: center
+html {
+  scroll-behavior: smooth;
+  
 }
+#convocatoria,
+#que-es,
+#cuando,
+#donde,
+#quienes,
+#categorias,
+#fechas,
+#como,
+#documentos
+{
+    scroll-margin-top: 1rem
+}
+
 .image-wrapper{
     text-align: center
 }
-h1{
-    font-size: 2em
-}
-h2{
-    font-size: 1.5em
-}
-h3{font-size: 1.17em}
-h4{font-size: 1em}
-h5{font-size: 0.89em}
-h6{font-size: 0.67em}
 
-li p{font-size: 0.89em}
+h2{
+    margin: 1rem 0
+    font-size: 2.25em;}
+h3{
+    margin: 1.75rem 0 1rem 0
+    font-size: 1.5em}
+h4{
+    margin: .5rem 0
+    font-size: 1.25em}
+h5{
+    margin: .5rem 0
+    font-size: 0.89em}
+h6{
+    margin: 0 0
+    font-size: 0.67em}
+
+li p{
+    font-size: 0.89em
+    margin-bottom: .5rem
+    }
+
+p{
+    line-height: 1.25
+}
+
+.breadcrumb-wrapper{
+    background-color: $secondary-color;
+    padding: 1rem;
+    }
+
+.breadcrumb{
+    margin-top:0; 
+    }
+
+.breadcrumb-item+.breadcrumb-item::before {
+color: $main-color
+}
+
+.banner-announcement
+    padding: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background-image: url('/lib/frontend/site/announcement/banner.png');
+    background-size: cover;
+    background-position: bottom;
+    @media (max-width: 700px)
+        font-size: 1rem
+
+.drawer
+    position: relative
+    
+    ul
+        padding: 0
+        text-align: end;
+        position: sticky
+        top: 3rem
+        li
+            list-style: none;
+            padding: .45rem 0
+            a
+                color: #555
+                p
+                    margin: 0
+                h5
+                    margin: 0
+            &.active
+                background-color: lightness($primary-color, 90%)
+
+
+
