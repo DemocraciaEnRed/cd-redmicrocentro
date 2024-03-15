@@ -11,6 +11,7 @@ html {
 #fechas,
 #como,
 #documentos
+#que-proponer
 {
     scroll-margin-top: 1rem
 }
@@ -62,12 +63,19 @@ color: $main-color
     color: #fff;
     font-size: 1.5rem;
     font-weight: 900;
-    background-image: url('/lib/frontend/site/announcement/banner.png');
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/lib/frontend/site/home-multiforum/background-home.jpg');
     background-size: cover;
     background-position: bottom;
     @media (max-width: 700px)
         font-size: 1rem
 
+.title-section
+    text-transform: uppercase;
+    color: $primary-color
 .drawer
     position: relative
     
